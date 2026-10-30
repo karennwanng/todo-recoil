@@ -1,0 +1,41 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.acoes {
+  display: flex;
+  gap: 12px;
+}
+
+.acoes-espaco {
+  margin: 10px;
+}
+
+.formulario {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+}
+
+.formulario input {
+  flex: 1;
+  padding: 2px;
+}
+
+.tarefa span {
+  overflow-wrap: anywhere;
+}
+
+ul {
+  padding: 0;
+}
